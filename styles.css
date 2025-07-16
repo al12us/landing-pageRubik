@@ -284,7 +284,16 @@ i.fa-solid.fa-magnet {
   mask-composite: exclude;
 }
 .btnp:hover {
-  background: turquoise;
+   background: linear-gradient(
+    45deg,
+    silver 20%,
+    black 40%,
+    gold 60%,
+    black 80%,
+    gold 100%,
+    silver 120%
+  );
+  transform: scale(1.2);
 }
 footer {
   background: linear-gradient(25deg, #113f67, #58a0c8, #fdf5aa);
